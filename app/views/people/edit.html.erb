@@ -1,0 +1,7 @@
+<form action="<%= person_path(@person) %>" method='post'>
+	<input type="hidden" name='_method' value='put'>
+	<input type="text" name='name' value='<%= @person.name %>'>
+	<button id='submit'>
+		Submit
+	</button>
+</form>
