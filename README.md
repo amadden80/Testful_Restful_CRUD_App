@@ -53,13 +53,13 @@
 - A `DELETE` request - Change the data
 
 ###Routes:
-- `GET     '/objects'`          - Show me all the objects in the database
-- `POST    '/objects'`          - Insert a new object into the database
-- `GET     '/objects/new'`      - Show me a form for a new object
-- `GET     '/objects/:id/edit'` - Show me a form to edit an existing object (found by id)
-- `GET     '/objects/:id'`      - Show me one of the object (found by id)
-- `PUT     '/objects/:id'`      - Update an existing object in the database (found by id)
-- `DELETE  '/objects'`          - Destroy an existing object in the database (found by id)
+- `GET     '/people'`          - Show me all the objects in the database
+- `POST    '/people'`          - Insert a new object into the database
+- `GET     '/people/new'`      - Show me a form for a new object
+- `GET     '/people/:id/edit'` - Show me a form to edit an existing object (found by id)
+- `GET     '/people/:id'`      - Show me one of the object (found by id)
+- `PUT     '/people/:id'`      - Update an existing object in the database (found by id)
+- `DELETE  '/people'`          - Destroy an existing object in the database (found by id)
 
 ---
 
